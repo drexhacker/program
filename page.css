@@ -1,0 +1,30 @@
+.container {
+    display: inline-block;
+    width: 100%;
+    padding: 5%;
+}
+
+.sidebar {
+    width: 20%;
+    height: 500px;
+    float: left;
+    background-color: aqua;
+}
+
+.main {
+    width: 70%;
+    height: 500px;
+    float: left;
+    background-color: teal;
+}
+
+.main span {
+    background-color: red;
+    font-size: 40px;
+    color: white;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50%;
+}

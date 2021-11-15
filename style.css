@@ -1,0 +1,66 @@
+body {
+    background-color: aqua;
+    color: brown;
+}
+
+h1 {
+    color: purple;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bolder;
+    text-shadow: darkorange;
+    text-decoration: underline;
+}
+
+#header2 {
+    color: blue;
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: wavy;
+    text-shadow: 10px 6px #000;
+}
+
+.cust {
+    font-size: calc(1000% / 5);
+    color: lime;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.box {
+    width: 300px;
+    height: 150px;
+    background-color: magenta;
+    border: 3px green dashed;
+    border-radius: 25px;
+}
+
+.box2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: mediumorchid;
+    border-right: 200px solid yellow;
+    border-left: 200px solid red;
+}
+
+.box3 {
+    width: 500px;
+    height: 250px;
+    background-color: red;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.gre {
+    display: inline-block;
+    background-color: blueviolet;
+    width: 100%;
+}
+
+.gre .blu {
+    float: right;
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+}
